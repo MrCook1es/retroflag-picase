@@ -13,7 +13,7 @@ file_dest="/usr/bin/rpi-retroflag-SafeShutdown"
 
 # Minimum version of BATOCERA is 5.24 because here batocera-es-swissknife is integrated
 # so all versions less then 5.24 will be dropped from further install
-if [[ ${version//[^[:digit:]]/} -lt 524 ]]; then
+if [[ ${version//[^[:digit:]]/} -lt 5.24 ]]; then
     echo "Error! Please try annother installer"
     echo "Your current version of Batocera is '$version'"
     echo "You need at least 5.24 ...."
